@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom/cjs/react-router-dom.min";
 import Rating from "../components/ui/Rating";
 import Price from "../components/ui/Price";
 import Book from "../components/ui/Book";
-//where oh where did my changes go
+
 
 const BookInfo = ({ books }) => {
     const {id} = useParams();
