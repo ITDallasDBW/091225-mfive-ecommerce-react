@@ -13,7 +13,7 @@ import {
   faStarHalfAlt,
   faTags,
   faTimes,
-  faArrowLeft
+  faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(

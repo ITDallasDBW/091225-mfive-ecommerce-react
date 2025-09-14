@@ -12,7 +12,6 @@ function App() {
   const [cart, setCart] = useState([]);
 
   function addToCart(book) {
-    // console.log('add to cart', book)
     setCart([...cart, { ...book, quantity: 1 }]);
   }
 
@@ -31,15 +30,15 @@ function App() {
   }
 
   function removeItem(item) {
-    setCart(cart.filter(book => book.id !== item.id))
+    setCart(cart.filter((book) => book.id !== item.id));
     console.log("remove item", item);
   }
 
   function numberOfItems() {
     let counter = 0;
-    cart.forEach(item => {
-      counter += item.quantity
-    })
+    cart.forEach((item) => {
+      counter += item.quantity;
+    });
     return counter;
   }
 
