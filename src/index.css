@@ -404,6 +404,7 @@ FEATURES
 .book__title--skeleton {
   height: 21px;
   width: 100%;
+  max-width: 250px;
 }
 
 .book__rating--skeleton {
@@ -412,8 +413,9 @@ FEATURES
 }
 
 .book__price--skeleton {
-  width : 200px;
+  width: 80%;
   height: 19px;
+  max-width : 200px;
 }
 
 .book__link {
